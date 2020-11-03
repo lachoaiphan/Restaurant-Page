@@ -156,3 +156,8 @@ a {
     padding-top: 100px;
 }
 
+#footer {
+    position: absolute;
+    bottom: 0;
+}
+

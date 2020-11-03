@@ -1,9 +1,9 @@
 import { appendChildren } from "./helper.js";
 
 export function renderHomeContent() {
-    const homeHeaderContent = "Surprising your taste buds with every bite";
+    const homeHeaderContent = "Surprising your taste buds with every bite.";
     const homeSubHeadContent = "Come to our restaurant as we provide a lovely \
-                                atmosphere along with fantastic cuisine";
+                                atmosphere along with fantastic cuisine.";
     let homeContent = document.createElement("div");
     let homeHeader = document.createElement("h1");
     let homeSubHead = document.createElement("h3");

@@ -1,4 +1,8 @@
 import { appendChildren } from "./helper.js";
+import { renderMenuContent } from "./menu.js";
+import { renderHomeContent } from "./home.js";
+import { renderContactContent } from "./contact.js";
+import { clearContent } from "../index.js";
 
 export function renderHeader() {
     const logoTitle = "Wow! Restaurant";
@@ -33,9 +37,9 @@ function addNavbar() {
 
 function addNavList() {
     const navItems = [
-        {text: "MENU", func: templateFunction},
-        {text: "HOME", func: templateFunction},
-        {text: "CONTACT", func: templateFunction}
+        {text: "MENU", func: renderMenuContent},
+        {text: "HOME", func: renderHomeContent},
+        {text: "CONTACT", func: renderContactContent}
     ]
     let navList = document.createElement('ul');
     navList.classList.add('nav-list', 'fl-r');
@@ -49,6 +53,7 @@ function addNavList() {
         navItem.textContent = navItems[i].text;
         navItem.addEventListener('click', (e) => {
             if (e.target) {
+                clearContent();
                 navItems[i].func();
             }
         })
