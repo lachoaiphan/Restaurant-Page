@@ -9,7 +9,7 @@ export function renderContactContent() {
     let contactContent = document.createElement("div");
 
     contactContent.setAttribute("id", "contact-content");
-    contactContent.classList.add("fl-c");
+    contactContent.classList.add("fl-c", "fade-in");
 
     for (let i = 0; i < contactHeaders.length; i++) {
         let contactContainer = document.createElement("div");

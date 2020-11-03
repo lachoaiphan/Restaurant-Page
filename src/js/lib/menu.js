@@ -21,7 +21,7 @@ export function renderMenuContent() {
     let menuContent = document.createElement("div");
 
     menuContent.setAttribute("id", "menu-content");
-    menuContent.classList.add("grid-container");
+    menuContent.classList.add("grid-container", "fade-in");
 
     for (let i = 0; i < foodTypes.length; i++) {
         let menuSection = document.createElement("div");
