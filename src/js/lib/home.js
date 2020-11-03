@@ -9,6 +9,7 @@ export function renderHomeContent() {
     let homeSubHead = document.createElement("h3");
 
     homeContent.setAttribute("id", "home-content");
+    homeContent.classList.add("fade-in");
     homeHeader.classList.add("home-head");
     homeSubHead.classList.add("home-subhead");
 
