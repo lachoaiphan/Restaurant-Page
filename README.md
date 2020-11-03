@@ -1,6 +1,6 @@
 # Restaurant Web Page
 
-A template restaurant single web page that uses VanillaJS for rendering purposes.
+A template restaurant single web page that uses VanillaJS for rendering purposes and Webpack for bundling modules.
 
 Photo by form PxHere.
 
