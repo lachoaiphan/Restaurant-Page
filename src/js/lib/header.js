@@ -34,8 +34,8 @@ function addNavbar() {
 function addNavList() {
     const navItems = [
         {text: "MENU", func: templateFunction},
-        {text: "CONTACT", func: templateFunction},
-        {text: "HOME", func: templateFunction}
+        {text: "HOME", func: templateFunction},
+        {text: "CONTACT", func: templateFunction}
     ]
     let navList = document.createElement('ul');
     navList.classList.add('nav-list', 'fl-r');

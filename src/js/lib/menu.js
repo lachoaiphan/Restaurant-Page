@@ -1,0 +1,1 @@
+import { clearContent } from "../index.js";
