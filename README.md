@@ -1,3 +1,5 @@
 # Restaurant Web Page
 
-A template restaurant single web page with JavaScript rendering abilities.
+A template restaurant single web page that uses VanillaJS for rendering purposes.
+
+Photo by form PxHere.
